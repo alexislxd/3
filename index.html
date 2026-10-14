@@ -1445,7 +1445,7 @@ function scrollToOfferSection() {
   if (!el) return;
 
   function go() {
-    var extraOffset = 70;
+    var extraOffset = 120;
       var targetTop = window.pageYOffset + el.getBoundingClientRect().top + extraOffset;
       window.scrollTo({ top: targetTop, behavior: 'smooth' });
   }
